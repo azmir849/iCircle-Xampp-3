@@ -1,0 +1,63 @@
+.interest{
+    background-image: url(../images/interset_bg.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px 0 160px 0;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    &::before{
+    position: absolute;
+    content: '';
+    top: 0; 
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6); 
+    z-index: -1;
+    }
+    .section_header{
+        h3{
+            font-size: 75px;
+            font-weight: 700;
+            color: $white;
+            font-family: $oswald;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+    .interst_wrapper{
+           padding-top: 75px;
+        .interest_item{
+             .round_cercle{
+                 height: 175px;
+                 width: 175px;
+                 border-radius: 50%;
+                 background-color: $white;
+                 text-align: center;
+                 margin: 0 auto;
+                 i{
+                     font-size: 90px;
+                     color: $orange;
+                     line-height: 175px;
+                 }
+             }
+             .interst_text{
+                 padding-top: 20px;
+                h4{
+                    font-size: 30px;
+                    color: $white;
+                    font-weight: 500;
+                    font-family: $popins;
+                }
+                p{
+                    font-size: 15px;
+                    color: $white;
+                    font-weight: 400;
+                    font-family: $popins;
+                line-height: 28px;                }
+             }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.service{
+    background-image: url(../images/service_bg.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px 0;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    &::before{
+    position: absolute;
+    content: '';
+    top: 0; 
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8); 
+    z-index: -1;
+    }
+    .section_header{
+        h3{
+            font-size: 75px;
+            font-weight: 700;
+            color: $white;
+            font-family: $oswald;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+
+    .service_wrapper{
+        padding-top: 50px;
+          .service_card{
+              background-color: $white;
+              padding: 20px 20px 25px 20px;
+              border-radius: 7px;
+              &:hover{
+                  background-color: $orange; 
+              }
+              &:hover .card_text h4{
+                color: $white;
+             }
+             &:hover .card_text p{
+                color: $white;
+             }
+             &:hover .card_text a{
+                background-color: $white;
+                color: $black;
+             }
+              .card_img{
+                  img{
+                      width: 100%;
+                      max-height: 270px;
+                  }
+              }
+              .card_text{
+                  padding-top: 15px;
+                  h4{
+                    font-size: 24px;
+                    font-weight: 500;
+                    color: $black;
+                    font-family: $monstar;
+                  }
+                  p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #000;
+                    font-family: $monstar;
+                    line-height: 24px;
+                    padding-bottom:10px ;
+                  }
+                  a{
+                      @include button;
+                  }
+              }
+          }
+    }
+}

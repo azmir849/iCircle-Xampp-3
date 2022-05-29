@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="tabName"></title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+     <!-- Import dynamic script from js -->
+     <script src="./js/dynamicScript.js"></script>
+</head>
+<body>  
+     
+<style>
+     #more {display: none;}
+.readBtn{
+        color: #fff;
+        margin-bottom: 20px;
+		outline: none;
+		outline-color: #fff !important;
+		border: none;
+		background: none;
+		text-align: left;
+		font-size: 20px;
+		font-weight: 600;
+		text-transform: uppercase;
+    }
+
+
+.list-element {
+    display: none;
+}
+#loadmore {
+    margin: 50px auto 0px;
+    display: table;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #f4663b;
+	outline: none;
+}
+.list-element:nth-child(1) {
+    display: block;
+}
+.list-element:nth-child(2) {
+    display: block;
+}
+.list-element:nth-child(3) {
+    display: block;
+}
+
+</style>
+<!--          Header Part strat
+     *****************************************-->
+<header>
+     <div class="header newclass">
+          <div class="container-fluid d-none d-lg-block">
+               <ul id="headerNav">
+                  
+               </ul>
+          </div>
+          <div class="row">
+               <div class="col-lg-12 text-end">
+                    <a href="#" class="moble_navbar d-block d-lg-none nav_toggol" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight2"> <i class="fa-solid fa-bars"></i></a>
+               </div>
+          </div>
+     </div>
+</header>
+
+
+<!--          Header Part End
+     *****************************************-->
+<!--         NAv Offcan Part Start
+     *****************************************-->
+     <section>
+          <div class="navbar_toggoler">
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">
+                    </h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                      <div class="nav_list">
+                          <div class="dropdown">
+                              <a href="#" class="js-link">Menu List<i class="fa fa-chevron-down"></i></a>
+                              <ul id="dropdownListId" class="js-dropdown-list">
+                                   
+                              </ul>
+                            </div>
+                                </div>
+                            </div>
+                       </div>
+                 </div>
+         </section>
+<!--         NAv Offcan Part Start
+     *****************************************-->
+
+<!--           Banner Part strat
+     *****************************************-->
+<section>
+     <div class="banner" id="banner">
+          <div class="container-fluid">
+               <div class="banner_inner">
+                   <div class="row">
+                        <div class="col-lg-5">
+                         <h2>Hi !</h2>
+                         <h2 id="fullName"></h2>
+                         <h3 id="Designation" style="font-size: 30px;"></h3>
+                         <h3 class="" id="homeUserAbout"></h3>
+                         <div id="homeUserAboutDiv" class="homeUserAboutDiv text-left ml-5 mr-5 mb-2" style="font-size: 20px;"></div>
+                         <div class="text-left ml-5"><button class="readBtn text-left" onclick="myFunctionRead()" id="myBtn">Read more</button></div>
+                         <div></div>
+                         <div class="button_line">
+                              <span>Resume :</span>
+                              <a id="ResumeUrl" href="#">Download</a>
+                         </div>
+                         <h4 id="address"><span><i class="fa-solid fa-location-dot"></i></span></h4>
+                        </div>
+                   </div>
+               </div>
+          </div>
+     </div>
+</section>
+
+<!--           Banner  Part End
+     *****************************************-->
+
+
+<!--           Experiance  Part Start
+     *****************************************-->
+ <section id="experienceSection">
+     <div class="experiance" id="experiance">
+           <div class="container">
+                 <div class="row">
+                  <div class="col-lg-12 text-center">
+                       <div class="section_header">
+                         <h3>Experience</h3>
+                       </div>
+                  </div>
+                 </div>
+           </div>
+           <section class="experiance_wrapper">
+               <div class="container">
+
+               <div id="experienceFullCard" class="row experiance_slider">
+             
+               </div>
+               </div>
+             </section>
+     </div>
+</section> 
+<!--           Experiance  Part End
+     *****************************************-->
+
+<!--           Skill  Part Start
+     *****************************************-->
+<section id="skillSection">
+     <div class="skill" id="skill">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-12 text-center">
+                         <div class="section_header">
+                           <h3>Skills</h3>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                         <div id="skillBar" class="skill_content">
+
+                         </div>
+                         
+                     </div>
+                </div>
+          </div>
+     </div>
+</section>
+<!--           Skill  Part End
+     *****************************************-->
+
+
+<!--           Eduaction  Part Start
+     *****************************************-->
+<section id="educationSection">
+      <div class="education" id="education">
+           <div class="container">
+               <div class="row">
+                    <div class="col-lg-12 text-center">
+                         <div class="section_header">
+                           <h3>Education</h3>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="education_wrapper">
+                     <div id="educationSectionData" class="row">
+                    
+                     </div>
+                </div>
+           </div>
+      </div>     
+</section>
+<!--           Eduaction Part End
+     *****************************************-->
+
+
+<!--           Service Part Start
+     *****************************************-->
+<section id="servicesSection">
+     <div class="service" id="service">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-12 text-center">
+                         <div class="section_header">
+                           <h3>Service</h3>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="service_wrapper">
+                    <div id="servicesData" class="row">
+           
+                    </div>
+               </div>
+          </div>
+     </div>
+</section>
+<!--           Service Part End
+     *****************************************-->
+
+
+<!--           Language Part Start
+     *****************************************-->
+<section id="languageSection">
+     <div class="language" id="language">
+         <div class="container">
+          <div class="row">
+               <div class="col-md-4 col-lg-12 text-center">
+                    <div class="section_header">
+                      <h3>Languages</h3>
+                    </div>
+               </div>
+           </div>
+           <div class="language_wrapper">
+                <div id="languageSectionData" class="row justify-content-center">
+          
+                </div>
+           </div>
+         </div>
+     </div>
+</section>
+<!--            Language Part ENd
+     *****************************************-->
+<!--            Portfolio Part Start
+     *****************************************-->
+<section id="portfolioSection">
+     <div class="portfolio" id="portfolio">
+          <div class="container">
+               <div class="row">
+                    <div class="col-md-6 col-lg-12 text-center">
+                         <div class="section_header">
+                           <h3>Portfolio</h3>
+                         </div>
+                    </div>
+                </div>
+                <div class="portfolio_wrapper">
+                    <div id="portfolioData" class="row justify-content-center">
+               
+                    </div>
+               </div>
+          </div>
+     </div>
+</section>
+<!--            Portfolio Part ENd
+     *****************************************-->
+<!--            Award Part Start
+     *****************************************-->
+<section id="awardSection">
+     <div class="award" id="award">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-12 text-center">
+                         <div class="section_header">
+                           <h3>Awards</h3>
+                         </div>
+                    </div>
+                </div>
+                <div class="award_wrapper">
+                     <div id="awardSectionData" class="row">
+         
+                     </div>
+                </div>
+          </div>
+     </div>
+</section>
+<!--            Award Part End
+     *****************************************-->
+
+<!--            Interest Part Start
+     *****************************************-->
+<section id="interestSection">
+     <div class="interest" id="interest">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-12 text-center">
+                         <div class="section_header">
+                           <h3>Interests</h3>
+                         </div>
+                    </div>
+                </div>  
+                <div class="interst_wrapper">
+                     <div id="interestSectionData" class="row">
+   
+                     </div>
+                </div>
+          </div>
+     </div>
+</section>
+<!--            Interest Part End
+     *****************************************-->
+
+<!--            Journal  Part Start
+     *****************************************-->
+<section id="blogSection">
+     <div class="journal" id="journal">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-12 text-center">
+                         <div class="section_header">
+                           <h3>Journal</h3>
+                         </div>
+                    </div>
+                </div> 
+                <div class="journal_wrapper">
+                     <div class="journal_other_item">
+                         <div id="journalSectionData" class="row mt-5">  
+                            
+                         </div>
+                     </div>
+                </div>
+                <!-- Load More Button -->
+			<button id="loadmore">Load More...</button>
+          </div>
+     </div>
+</section>
+<!--            Journal Part End
+     *****************************************-->
+
+<!--            Reffarence Part Start
+     *****************************************-->
+<section id="referenceSection">
+      <div class="reference" id="reference">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-12 text-center">
+                         <div class="section_header">
+                           <h3>References</h3>
+                         </div>
+                    </div>
+                </div> 
+                <div class="reference_wrapper">
+                     <div id="referencesData" class="row">
+       
+                     </div>
+                </div>
+          </div>
+      </div>
+</section>
+<!--            Reffarence Part End
+     *****************************************-->
+
+<!--            Client Part Start
+     *****************************************-->
+     <section id="clientSection">
+          <div class="Clients" id="Clients">
+              <div class="container">
+                   <div class="row">
+                        <div class="col-lg-12 text-center">
+                             <div class="section_header">
+                               <h3>Clients</h3>
+                             </div>
+                        </div>
+                    </div> 
+                    <div class="Clients_wrapper">
+                         <div id="clientSectionData" class="row">
+                   
+                         </div>
+                    </div>
+              </div>
+          </div>
+    </section>
+<!--            Client Part End
+     *****************************************-->
+
+<!--          Appointment Part Start
+     *****************************************-->
+     <section>
+          <div class="appointment" id="appointment">
+              <div class="container">
+               <div class="row">
+                    <div class="col-lg-12 text-center">
+                         <div class="section_header">
+                           <h3>Appointment</h3>
+                         </div>
+                    </div>
+                </div> 
+                  <div class="appointment_wrapper">
+                       <div class="row">
+                            <div class="time_table">
+                                 <h4>Available Days and Timings</h4>
+                                 <h5>Satarday (06:45 PM to 12:45 PM)</h5>
+                                 <h5>Sunday (06:45 PM to 12:45 PM)</h5>
+                            </div>
+                       </div>
+                      <div class="row">
+                          <div class="col-md-12 col-lg-12">
+                              <div class="row pt-4">
+                                  <div class="col-md-12 col-lg-12">
+                                     <div class="form_wrapper">
+                                         <form action="#">
+                                              <label for="title">Title</label>
+                                             <input class="form_control" type="text" placeholder="Title">
+                                         </form>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6 col-lg-6">
+                                     <div class="form_wrapper">
+                                         <form action="#">
+                                             <label for="email">E-mail</label>
+                                             <input class="form_control" type="text" placeholder="">
+                                         </form>
+                                      </div>
+                                  </div>
+ 
+                                  <div class="col-md-6 col-lg-6">
+                                     <div class="form_wrapper">
+                                         <form action="#">
+                                             <label for="date">Date</label>
+                                             <input class="form_control date_custom" type="date" placeholder="">
+                                         </form>
+                                      </div>
+                                  </div>
+ 
+                                  <div class="col-md-6 col-lg-6">
+                                     <div class="form_wrapper">
+                                         <form action="#">
+                                             <label for="formTime">From Time</label>
+                                             <input class="form_control" type="text">
+                                         </form>
+                                      </div>
+                                  </div>
+ 
+                                  <div class="col-md-6 col-lg-6">
+                                     <div class="form_wrapper">
+                                         <form action="#">
+                                             <label for="toTime">To Time</label>
+                                             <input class="form_control" type="text" placeholder="">
+                                         </form>
+                                      </div>
+                                  </div>
+ 
+                                  <div class="col-lg-12 mt-5">
+                                      <a href="#"> <span><i class="fa-solid fa-calendar-days"></i></span>Set Appointment </a>
+                                  </div>
+                              </div>
+                          </div>
+                  </div>
+              </div>
+          </div>
+     </div>
+ </section>
+<!--           Appointment Part End
+     *****************************************-->
+
+<!--          Contact Part Start
+     *****************************************-->
+<section>
+      <div class="contact" id="contact">
+              <div class="container">
+               <div class="row">
+                    <div class="col-lg-12 text-center">
+                         <div class="section_header">
+                           <h3>Contact</h3>
+                         </div>
+                    </div>
+                </div> 
+                <div class="contact_wrapper">
+                    <div class="row">
+                    </div>
+                   <div class="row">
+                       <div class="col-md-12 col-lg-12">
+                           <div class="row pt-4">
+                               <div class="col-lg-12">
+                                  <div class="form_wrapper">
+                                      <form action="#">
+                                           <label for="subject">Subject</label>
+                                          <input class="form_control" type="text" id="subject" name="subject" placeholder="Subject">
+                                      </form>
+                                   </div>
+                               </div>
+                               <div class="col-md-6 col-lg-6">
+                                  <div class="form_wrapper">
+                                      <form action="#">
+                                          <label for="name">Name</label>
+                                          <input class="form_control" type="text" placeholder="">
+                                      </form>
+                                   </div>
+                               </div>
+
+                               <div class="col-md-6 col-lg-6">
+                                  <div class="form_wrapper">
+                                      <form action="#">
+                                          <label for="email">E-mail</label>
+                                          <input class="form_control" type="text" placeholder="">
+                                      </form>
+                                   </div>
+                               </div>
+                               <div class="col-md-12 col-lg-12">
+                                  <div class="form_wrapper">
+                                      <form action="#">
+                                          <label for="massage">Massage</label>
+                                          <input class="form_control Massages" type="text" placeholder="">
+                                      </form>
+                                   </div>
+                               </div>
+                               <div class="col-lg-12 mt-5">
+                                   <a href="#"> Sent</a>
+                               </div>
+                           </div>
+                       </div>
+               </div>
+               </div>
+               <div class="row">
+                    <div class="col-lg-12 text-end">
+                         <div class="contact_info">
+                              <ul id="SocialIcons">
+                                  
+                              </ul>
+                         </div>
+                    </div>
+               </div>
+              </div>
+          </div>
+      </section> 
+<!--           Contact Part End
+     *****************************************-->
+<!--           Back To Top Part Satrt
+     *****************************************-->
+     <a href="#" class="backtotop"></a>
+<!--           BAck to Top Part End
+     *****************************************-->
+<!--
+         Javascript Script Linker Part
+    [][][][][][[][][][][][[][][][][][][][][][][]-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- For Read more/Read less -->
+<script>
+	function myFunctionRead() {
+	  var dots = document.getElementById("dots");
+	  var moreText = document.getElementById("more");
+	  var btnText = document.getElementById("myBtn");
+	
+	  if (dots.style.display === "none") {
+		dots.style.display = "inline";
+		btnText.innerHTML = "Read more"; 
+		moreText.style.display = "none";
+	  } else {
+		dots.style.display = "none";
+		btnText.innerHTML = "Read less"; 
+		moreText.style.display = "inline";
+	  }
+	}
+	</script>
+
+<script>
+     const loadmore = document.querySelector('#loadmore');
+          let currentItems = 3;
+          loadmore.addEventListener('click', (e) => {
+               const elementList = [...document.querySelectorAll('.list-element')];
+               for (let i = currentItems; i < currentItems + 3; i++) {
+                    if (elementList[i]) {
+                         elementList[i].style.display = 'block';
+                    }
+               }
+               currentItems += 3;
+     
+               // Load more button will be hidden after list fully loaded
+               if (currentItems >= elementList.length) {
+                    event.target.style.display = 'none';
+               }
+          })
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+.award{
+    background-image: url(../images/award.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px 0 160px 0;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    &::before{
+    position: absolute;
+    content: '';
+    top: 0; 
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #e8631cd9; 
+    z-index: -1;
+    }
+    .section_header{
+        h3{
+            font-size: 75px;
+            font-weight: 700;
+            color: $white;
+            font-family: $oswald;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+    .award_wrapper{
+              padding-top: 75px;
+        .award_item{
+            display: flex;
+            .item_text{
+                padding-left: 20px;
+                  h4{
+                    font-size: 36px;
+                    font-weight: 500;
+                    color: $white;
+                    font-family: $popins;
+                  }
+                  h5{
+                    font-size: 28px;
+                    font-weight: 500;
+                    color: $white;
+                    font-family: $popins;
+                  }
+                  p{
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: $white;
+                    font-family: $popins;
+                    line-height: 24px;
+                  }
+            }
+        }
+    }
+}

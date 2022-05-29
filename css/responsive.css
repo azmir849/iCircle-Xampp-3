@@ -1,0 +1,1751 @@
+@media (min-width: 320px) and (max-width: 479.98px){  
+/* header part */
+.header {
+	background-color: #303030;
+	padding: 20px 20px;
+}
+/* navbaroffcan */
+#offcanvasRight2 {
+	z-index: 99999999;
+}
+.offcanvas-end {
+	width: 290px;
+}
+.btn-close:focus {
+	box-shadow: 0 0 0 .25rem transparent;
+}
+
+ /*banner part  */
+ .banner .banner_inner {
+	padding: 90px 0px 30px 0px;
+}
+.banner .banner_inner h3 {
+	font-size: 15px;
+}
+.banner .banner_inner p {
+	font-size: 20px;
+	padding: 0px 0;
+}
+.banner .banner_inner h4 {
+	font-size: 14px;
+	line-height: 28px;
+}
+/* experiance part */
+.experiance .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.experiance_wrapper .experiance_icon {
+	height: 40px;
+	width: 40px;
+}
+.experiance_wrapper .experiance_slider .experiance_icon img {
+	width: 25px;
+}
+.experiance_wrapper .experiance_slider .experiance_left h3 {
+	font-size: 18px;
+	line-height: 28px;
+}
+.experiance_wrapper .experiance_slider .experiance_right p {
+	font-size: 14px;
+}
+.experiance_wrapper .experiance_slider .experiance_right h5 {
+	font-size: 16px;
+}
+.experiance_wrapper .experiance_slider .experiance_right {
+	padding: 8px 10px 8px 15px;
+	background-color: #fff;
+}
+.experiance_wrapper .experiance_befor_one::before {
+	left: 0px;
+	z-index: -1;
+}
+.experiance_wrapper .experiance_befor_four::before {
+	right: 0px;
+	z-index: -1;
+}
+.experiance_wrapper .experiance_befor_two::before {
+
+	right: 0px;
+	z-index: -1;
+}
+.experiance_wrapper .experiance_befor_three::before {
+	left: 0px;
+	z-index: -1;
+}
+.experiance_wrapper .experiance_slider::before {
+	height: 110%;
+}
+/* skill Part*/
+.skill .skill_content {
+	padding-top: 0px;
+}
+.skill .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.skill .skill_content .progress_wrapeer .firstProgress {
+	animation: none;
+}
+.skill .skill_content .progress_wrapeer .secondProgress {
+	animation: none;
+}
+.skill .skill_content .progress_wrapeer .thirdProgress {
+    animation: none;
+}
+.skill .skill_content .progress_wrapeer .fourProgress {
+	animation: none;
+}
+.skill .skill_content .progress_wrapeer .fiveProgress {
+	animation: none;
+}
+.skill .skill_content .progress_wrapeer {
+	padding-top: 50px;
+	padding-right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* education */
+.education .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.education .education_wrapper .education_card {
+	width: 100%;
+	margin-top: 20px !important;
+}
+
+/* service Part */
+.language {
+	padding: 75px 0 75px 0;
+}
+.service .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.service .service_wrapper .service_card {
+	margin-top: 20px !important;
+}
+
+/* language */
+.language .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.language_item {
+	margin-top: 50px;
+}
+.language .language_wrapper {
+	padding-top: 0px;
+}
+/* portfolio PArt */
+.portfolio .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+.portfolio .portfolio_wrapper .portfolio_card {
+	margin-top: 20px;
+}
+
+/* award Part */
+.award {
+	padding: 75px 0 75px 0;
+}
+.award .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.award .award_wrapper .award_item .item_text h4 {
+	font-size: 26px;
+}
+.award .award_wrapper .award_item .item_text h5 {
+	font-size: 22px;
+}
+.award .award_wrapper .award_item .item_text p {
+	font-size: 16px;
+}
+
+/* Interest */
+.interest {
+	padding: 75px 0 75px 0;
+}
+.interest .interst_wrapper {
+	padding-top: 30px;
+}
+.interest .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.interest_item {
+	margin-top: 20px;
+}
+
+/* Journal */
+.journal .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.journal .journal_wrapper .journal_text p {
+	font-size: 16px;
+}
+.journal .journal_wrapper .journal_other_item .journal_text p {
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+/* refference */
+.reference .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.reference .reference_wrapper .reffer_card {
+	margin-top: 20px;
+}
+
+/* endorsment */
+.endorsements .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.endorsements .endorsements_wrapper .endorsements_text p {
+	font-size: 16px;
+}
+.endorsements_text {
+	padding-top: 20px;
+}
+/* clients */
+.Clients .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.Clients .Clients_wrapper .Clients_card {
+	padding: 40px 10px 30px 10px;
+	margin-top: 40px;
+}
+.Clients .Clients_wrapper .Clients_card .Clients_text .client_add {
+	padding-top: 30px;
+}
+.Clients .Clients_wrapper {
+	padding-top: 0px;
+}
+
+/* Appointment */
+.appointment .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.appointment .appointment_wrapper {
+	padding-top: 35px;
+}
+.appointment .appointment_wrapper .time_table h4 {
+	font-size: 24px;
+}
+.appointment .appointment_wrapper .time_table h5 {
+	font-size: 16px;
+}
+.appointment .appointment_wrapper .form_wrapper label {
+	font-size: 24px;
+}
+.appointment .appointment_wrapper .form_wrapper .form_control {
+	height: 60px;
+}
+
+/* contact */
+.contact .section_header h3 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.contact .contact_wrapper {
+	padding-top: 0px;
+}
+.contact .contact_wrapper .form_wrapper label {
+	font-size: 24px;
+}
+.contact .contact_wrapper .form_wrapper .form_control {
+	height: 60px;
+}
+.contact .contact_wrapper .form_wrapper .Massages {
+	height: 200px !important;
+}
+.contact_info {
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* common class */
+.mobileAlignStart{
+	text-align: start;
+}
+.mobile_mt{
+	margin-top: 30px;
+}
+
+
+}   
+@media (min-width: 480px) and (max-width: 575.98px){  
+	/* header part */
+	.header {
+		background-color: #303030;
+		padding: 20px 20px;
+	}
+	/* navbaroffcan */
+	#offcanvasRight2 {
+		z-index: 99999999;
+	}
+	.offcanvas-end {
+		width: 290px;
+	}
+	.btn-close:focus {
+		box-shadow: 0 0 0 .25rem transparent;
+	}
+	
+	 /*banner part  */
+	 .banner .banner_inner {
+		padding: 190px 0px 30px 0px;
+	}
+	.banner .banner_inner h3 {
+		font-size: 15px;
+	}
+	.banner .banner_inner p {
+		font-size: 20px;
+		padding: 0px 0;
+	}
+	.banner .banner_inner h4 {
+		font-size: 14px;
+		line-height: 28px;
+	}
+	/* experiance part */
+	.experiance .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.experiance_wrapper .experiance_icon {
+		height: 50px;
+		width: 50px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_icon img {
+		width: 30px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_left h3 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right p {
+		font-size: 14px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right h5 {
+		font-size: 16px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right {
+		padding: 8px 10px 8px 15px;
+		background-color: #fff;
+	}
+
+	.experiance_wrapper .experiance_befor_one::before {
+		left: -5px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_four::before {
+		right: -5px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_two::before {
+	
+		right: -5px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_three::before {
+		left: -5px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_slider::before {
+		height: 110%;
+	}
+	/* skill Part*/
+	.skill .skill_content {
+		padding-top: 0px;
+	}
+	.skill .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.skill .skill_content .progress_wrapeer .firstProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .secondProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .thirdProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .fourProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .fiveProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer {
+		padding-top: 50px;
+		padding-right: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	/* education */
+	.education .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.education .education_wrapper .education_card {
+		width: 100%;
+		margin-top: 20px !important;
+	}
+	
+	/* service Part */
+	.language {
+		padding: 75px 0 75px 0;
+	}
+	.service .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.service .service_wrapper .service_card {
+		margin-top: 20px !important;
+	}
+	
+	/* language */
+	.language .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.language_item {
+		margin-top: 50px;
+	}
+	.language .language_wrapper {
+		padding-top: 0px;
+	}
+	/* portfolio PArt */
+	.portfolio .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	
+	.portfolio .portfolio_wrapper .portfolio_card {
+		margin-top: 20px;
+	}
+	
+	/* award Part */
+	.award {
+		padding: 75px 0 75px 0;
+	}
+	.award .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.award .award_wrapper .award_item .item_text h4 {
+		font-size: 26px;
+	}
+	.award .award_wrapper .award_item .item_text h5 {
+		font-size: 22px;
+	}
+	.award .award_wrapper .award_item .item_text p {
+		font-size: 16px;
+	}
+	
+	/* Interest */
+	.interest {
+		padding: 75px 0 75px 0;
+	}
+	.interest .interst_wrapper {
+		padding-top: 30px;
+	}
+	.interest .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.interest_item {
+		margin-top: 20px;
+		padding: 0 20px;
+	}
+	
+	/* Journal */
+	.journal .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.journal .journal_wrapper .journal_text p {
+		font-size: 16px;
+	}
+	.journal .journal_wrapper .journal_other_item .journal_text p {
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	
+	/* refference */
+	.reference .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.reference .reference_wrapper .reffer_card {
+		margin-top: 20px;
+	}
+	.reference .reference_wrapper .reffer_card .reffer_text h6 {
+		width: 70%;
+		margin: 0 auto;
+	}
+	/* endorsment */
+	.endorsements .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.endorsements .endorsements_wrapper .endorsements_text p {
+		font-size: 16px;
+	}
+	.endorsements_text {
+		padding-top: 20px;
+	}
+	/* clients */
+	.Clients .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.Clients .Clients_wrapper .Clients_card {
+		padding: 40px 10px 50px 10px;
+		margin-top: 40px;
+	}
+	.Clients .Clients_wrapper .Clients_card .Clients_text .client_add {
+		padding-top: 30px;
+	}
+	.Clients .Clients_wrapper {
+		padding-top: 0px;
+	}
+	
+	/* Appointment */
+	.appointment .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.appointment .appointment_wrapper {
+		padding-top: 35px;
+	}
+	.appointment .appointment_wrapper .time_table h4 {
+		font-size: 24px;
+	}
+	.appointment .appointment_wrapper .time_table h5 {
+		font-size: 16px;
+	}
+	.appointment .appointment_wrapper .form_wrapper label {
+		font-size: 24px;
+	}
+	.appointment .appointment_wrapper .form_wrapper .form_control {
+		height: 60px;
+	}
+	
+	/* contact */
+	.contact .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.contact .contact_wrapper {
+		padding-top: 0px;
+	}
+	.contact .contact_wrapper .form_wrapper label {
+		font-size: 24px;
+	}
+	.contact .contact_wrapper .form_wrapper .form_control {
+		height: 60px;
+	}
+	.contact .contact_wrapper .form_wrapper .Massages {
+		height: 200px !important;
+	}
+	.contact_info {
+		margin-top: 50px;
+	}
+	
+	
+	/* common class */
+	.mobileAlignStart{
+		text-align: start;
+	}
+	.mobile_mt{
+		margin-top: 30px;
+	}
+	
+	
+}      
+@media (min-width: 576px) and (max-width: 767.98px){  
+	/* header part */
+	.header {
+		background-color: #303030;
+		padding: 20px 20px;
+	}
+	/* navbaroffcan */
+	#offcanvasRight2 {
+		z-index: 99999999;
+	}
+	.offcanvas-end {
+		width: 290px;
+	}
+	.btn-close:focus {
+		box-shadow: 0 0 0 .25rem transparent;
+	}
+	
+	 /*banner part  */
+	 .banner .banner_inner {
+		padding: 190px 0px 30px 0px;
+	}
+	.banner .banner_inner h3 {
+		font-size: 15px;
+	}
+	.banner .banner_inner p {
+		font-size: 20px;
+		padding: 0px 0;
+	}
+	.banner .banner_inner h4 {
+		font-size: 14px;
+		line-height: 28px;
+	}
+	/* experiance part */
+	.experiance .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.experiance_wrapper .experiance_icon {
+		height: 50px;
+		width: 50px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_icon img {
+		width: 30px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_left h3 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right p {
+		font-size: 14px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right h5 {
+		font-size: 16px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right {
+		padding: 8px 10px 8px 15px;
+		background-color: #fff;
+	}
+
+	.experiance_wrapper .experiance_befor_one::before {
+		left: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_four::before {
+		right: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_two::before {
+	
+		right: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_three::before {
+		left: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_slider::before {
+		height: 110%;
+	}
+	/* skill Part*/
+	.skill .skill_content {
+		padding-top: 0px;
+	}
+	.skill .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.skill .skill_content .progress_wrapeer .firstProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .secondProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .thirdProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .fourProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .fiveProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer {
+		padding-top: 50px;
+		padding-right: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	/* education */
+	.education .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.education .education_wrapper .education_card {
+		width: 100%;
+		margin-top: 40px !important;
+	}
+	
+	/* service Part */
+	.language {
+		padding: 75px 0 75px 0;
+	}
+	.service .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.service .service_wrapper .service_card {
+		margin-top: 40px !important;
+	}
+	
+	/* language */
+	.language .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.language_item {
+		margin-top: 50px;
+	}
+	.language .language_wrapper {
+		padding-top: 0px;
+	}
+	/* portfolio PArt */
+	.portfolio .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	
+	.portfolio .portfolio_wrapper .portfolio_card {
+		margin-top: 40px;
+	}
+	
+	/* award Part */
+	.award {
+		padding: 75px 0 75px 0;
+	}
+	.award .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.award .award_wrapper .award_item .item_text h4 {
+		font-size: 26px;
+	}
+	.award .award_wrapper .award_item .item_text h5 {
+		font-size: 22px;
+	}
+	.award .award_wrapper .award_item .item_text p {
+		font-size: 16px;
+	}
+	
+	/* Interest */
+	.interest {
+		padding: 75px 0 75px 0;
+	}
+	.interest .interst_wrapper {
+		padding-top: 40px;
+	}
+	.interest .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.interest_item {
+		margin-top: 20px;
+		padding: 0 20px;
+	}
+	
+	/* Journal */
+	.journal .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.journal .journal_wrapper .journal_text p {
+		font-size: 16px;
+	}
+	.journal .journal_wrapper .journal_other_item .journal_text p {
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	.journal_img_item {
+		margin-top: 20px;
+	}
+	/* refference */
+	.reference .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.reference .reference_wrapper .reffer_card {
+		margin-top: 20px;
+		padding: 40px 30px;
+	}
+	.reference .reference_wrapper .reffer_card .reffer_text h6 {
+		width:90%;
+		margin: 0 auto;
+	}
+	.reference .reference_wrapper .reffer_card .reffer_text h4 {
+		font-size: 24px;
+	}
+	/* endorsment */
+	.endorsements .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.endorsements .endorsements_wrapper .endorsements_text p {
+		font-size: 16px;
+	}
+	.endorsements_text {
+		padding-top: 20px;
+	}
+	/* clients */
+	.Clients .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.Clients .Clients_wrapper .Clients_card {
+		padding: 40px 10px 50px 10px;
+		margin-top: 40px;
+	}
+	.Clients .Clients_wrapper .Clients_card .Clients_text .client_add {
+		padding-top: 30px;
+	}
+	.Clients .Clients_wrapper {
+		padding-top: 0px;
+	}
+	.Clients .Clients_wrapper .Clients_card .Clients_text .client_add a i{
+		margin-bottom: 30px;
+	}
+	/* Appointment */
+	.appointment .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.appointment .appointment_wrapper {
+		padding-top: 35px;
+	}
+	.appointment .appointment_wrapper .time_table h4 {
+		font-size: 24px;
+	}
+	.appointment .appointment_wrapper .time_table h5 {
+		font-size: 16px;
+	}
+	.appointment .appointment_wrapper .form_wrapper label {
+		font-size: 24px;
+	}
+	.appointment .appointment_wrapper .form_wrapper .form_control {
+		height: 60px;
+	}
+	
+	/* contact */
+	.contact .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.contact .contact_wrapper {
+		padding-top: 0px;
+	}
+	.contact .contact_wrapper .form_wrapper label {
+		font-size: 24px;
+	}
+	.contact .contact_wrapper .form_wrapper .form_control {
+		height: 60px;
+	}
+	.contact .contact_wrapper .form_wrapper .Massages {
+		height: 200px !important;
+	}
+	.contact_info {
+		margin-top: 50px;
+	}
+	
+	
+	/* common class */
+	.mobileAlignStart{
+		text-align: start;
+	}
+	.mobile_mt{
+		margin-top: 30px;
+	}
+	
+	
+}     
+@media (min-width: 768px) and (max-width: 991.98px){  
+	/* header part */
+	.header {
+		background-color: #303030;
+		padding: 20px 20px;
+	}
+	/* navbaroffcan */
+	#offcanvasRight2 {
+		z-index: 99999999;
+	}
+	.offcanvas-end {
+		width: 290px;
+	}
+	.btn-close:focus {
+		box-shadow: 0 0 0 .25rem transparent;
+	}
+	
+	 /*banner part  */
+	 .banner .banner_inner {
+		padding: 190px 0px 30px 0px;
+	}
+	.banner .banner_inner h3 {
+		font-size: 16px;
+	}
+	.banner .banner_inner p {
+		font-size: 22px;
+		padding: 0px 0;
+	}
+	.banner .banner_inner h4 {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	/* experiance part */
+	.experiance .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.experiance_wrapper .experiance_icon {
+		height: 50px;
+		width: 50px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_icon img {
+		width: 30px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_left h3 {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right p {
+		font-size: 14px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right h5 {
+		font-size: 16px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right {
+		padding: 15px 20px 10px 20px;
+	}
+
+	.experiance_wrapper .experiance_befor_one::before {
+		left: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_four::before {
+		right: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_two::before {
+	
+		right: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_three::before {
+		left: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_slider::before {
+		height: 105%;
+	}
+	/* skill Part*/
+	.skill .skill_content {
+		padding-top: 0px;
+	}
+	.skill .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.skill .skill_content .progress_wrapeer .firstProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .secondProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .thirdProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .fourProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .fiveProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer {
+		padding-top: 50px;
+		padding-right: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	/* education */
+	.education .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.education .education_wrapper .education_card {
+		width: 100%;
+		margin-top: 40px !important;
+	}
+	
+	/* service Part */
+	.language {
+		padding: 75px 0 75px 0;
+	}
+	.service .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.service .service_wrapper .service_card {
+		margin-top: 40px !important;
+	}
+	
+	/* language */
+	.language .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.language_item {
+		margin-top: 50px;
+	}
+	.language .language_wrapper {
+		padding-top: 0px;
+	}
+	/* portfolio PArt */
+	.portfolio .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	
+	.portfolio .portfolio_wrapper .portfolio_card {
+		margin-top: 40px;
+	}
+	
+	/* award Part */
+	.award {
+		padding: 75px 0 75px 0;
+	}
+	.award .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.award .award_wrapper .award_item .item_text h4 {
+		font-size: 26px;
+	}
+	.award .award_wrapper .award_item .item_text h5 {
+		font-size: 22px;
+	}
+	.award .award_wrapper .award_item .item_text p {
+		font-size: 16px;
+	}
+	
+	/* Interest */
+	.interest {
+		padding: 75px 0 75px 0;
+	}
+	.interest .interst_wrapper {
+		padding-top: 40px;
+	}
+	.interest .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.interest_item {
+		margin-top: 20px;
+		padding: 0 20px;
+	}
+	
+	/* Journal */
+	.journal .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.journal .journal_wrapper .journal_text p {
+		font-size: 16px;
+	}
+	.journal .journal_wrapper .journal_other_item .journal_text p {
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	.journal_img_item {
+		margin-top: 20px;
+	}
+	/* refference */
+	.reference .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.reference .reference_wrapper .reffer_card {
+		margin-top: 20px;
+		padding: 40px 30px;
+	}
+	.reference .reference_wrapper .reffer_card .reffer_text h6 {
+		width:90%;
+		margin: 0 auto;
+	}
+	.reference .reference_wrapper .reffer_card .reffer_text h4 {
+		font-size: 24px;
+	}
+	/* endorsment */
+	.endorsements .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.endorsements .endorsements_wrapper .endorsements_text p {
+		font-size: 16px;
+	}
+	.endorsements_text {
+		padding-top: 20px;
+	}
+	/* clients */
+	.Clients .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.Clients .Clients_wrapper .Clients_card {
+		padding: 40px 10px 50px 10px;
+		margin-top: 40px;
+	}
+	.Clients .Clients_wrapper .Clients_card .Clients_text .client_add {
+		padding-top: 30px;
+	}
+	.Clients .Clients_wrapper {
+		padding-top: 0px;
+	}
+	.Clients .Clients_wrapper .Clients_card .Clients_text .client_add a i{
+		margin-bottom: 30px;
+	}
+	/* Appointment */
+	.appointment .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.appointment .appointment_wrapper {
+		padding-top: 35px;
+	}
+	.appointment .appointment_wrapper .time_table h4 {
+		font-size: 24px;
+	}
+	.appointment .appointment_wrapper .time_table h5 {
+		font-size: 16px;
+	}
+	.appointment .appointment_wrapper .form_wrapper label {
+		font-size: 24px;
+	}
+	.appointment .appointment_wrapper .form_wrapper .form_control {
+		height: 60px;
+	}
+	
+	/* contact */
+	.contact .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.contact .contact_wrapper {
+		padding-top: 0px;
+	}
+	.contact .contact_wrapper .form_wrapper label {
+		font-size: 24px;
+	}
+	.contact .contact_wrapper .form_wrapper .form_control {
+		height: 60px;
+	}
+	.contact .contact_wrapper .form_wrapper .Massages {
+		height: 200px !important;
+	}
+	.contact_info {
+		margin-top: 50px;
+	}
+	
+	
+	/* common class */
+	.mobileAlignStart{
+		text-align: start;
+	}
+	.mobile_mt{
+		margin-top: 30px;
+	}
+	
+	
+}   
+@media (min-width: 992px) and (max-width: 1199.98px){  
+	/* header part */
+	.header {
+		background-color: #303030;
+		padding: 20px 5px;
+	}
+	.header ul li a {
+		font-size: 14px;
+	}
+	
+	 /*banner part  */
+	 .banner .banner_inner {
+		padding: 220px 0px 40px 0px;
+	}
+	.banner .banner_inner h3 {
+		font-size: 24px;
+	}
+	.banner .banner_inner p {
+		font-size: 18px;
+		padding: 0px 0;
+	}
+	.banner .banner_inner h4 {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	/* experiance part */
+	.experiance .section_header h3 {
+		font-size: 50px;
+		letter-spacing: 2px;
+	}
+	.experiance_wrapper .experiance_icon {
+		height: 70px;
+		width: 70px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_icon img {
+		width: 40px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_left h3 {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right p {
+		font-size: 14px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right h5 {
+		font-size: 16px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right {
+		padding: 15px 20px 10px 20px;
+	}
+
+	.experiance_wrapper .experiance_befor_one::before {
+		left: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_four::before {
+		right: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_two::before {
+	
+		right: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_three::before {
+		left: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_slider::before {
+		height: 105%;
+	}
+	/* skill Part*/
+	.skill .skill_content {
+		padding-top: 0px;
+	}
+	.skill .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.skill .skill_content .progress_wrapeer .firstProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .secondProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .thirdProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .fourProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .fiveProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer {
+		padding-top: 50px;
+		padding-right: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	/* education */
+	.education .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.education .education_wrapper .education_card {
+		width: 100%;
+		margin-top: 40px !important;
+	}
+	
+	/* service Part */
+	.language {
+		padding: 75px 0 75px 0;
+	}
+	.service .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.service .service_wrapper .service_card {
+		margin-top: 40px !important;
+	}
+	.service .service_wrapper .service_card .card_img img {
+		max-height: 220px;
+	}
+	/* language */
+	.language .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.language_item {
+		margin-top: 50px;
+	}
+	.language .language_wrapper {
+		padding-top: 0px;
+	}
+	/* portfolio PArt */
+	.portfolio .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	
+	.portfolio .portfolio_wrapper .portfolio_card {
+		margin-top: 40px;
+	}
+	
+	/* award Part */
+	.award {
+		padding: 75px 0 75px 0;
+	}
+	.award .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.award .award_wrapper .award_item .item_text h4 {
+		font-size: 26px;
+	}
+	.award .award_wrapper .award_item .item_text h5 {
+		font-size: 22px;
+	}
+	.award .award_wrapper .award_item .item_text p {
+		font-size: 16px;
+	}
+	
+	/* Interest */
+	.interest {
+		padding: 75px 0 75px 0;
+	}
+	.interest .interst_wrapper {
+		padding-top: 40px;
+	}
+	.interest .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.interest_item {
+		margin-top: 20px;
+		padding: 0 20px;
+	}
+	
+	/* Journal */
+	.journal .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.journal .journal_wrapper .journal_text p {
+		font-size: 16px;
+	}
+	.journal .journal_wrapper .journal_other_item .journal_text p {
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	.journal_img_item {
+		margin-top: 20px;
+	}
+	/* refference */
+	.reference .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.reference .reference_wrapper .reffer_card {
+		margin-top: 20px;
+		padding: 40px 30px;
+	}
+	.reference .reference_wrapper .reffer_card .reffer_text h6 {
+		width:100%;
+		margin: 0 auto;
+	}
+	.reference .reference_wrapper .reffer_card .reffer_text h4 {
+		font-size: 20px;
+	}
+	/* endorsment */
+	.endorsements .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.endorsements .endorsements_wrapper .endorsements_text p {
+		font-size: 16px;
+	}
+	/* clients */
+	.Clients .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.Clients .Clients_wrapper .Clients_card {
+		padding: 40px 10px 50px 10px;
+		margin-top: 40px;
+	}
+	.Clients .Clients_wrapper .Clients_card .Clients_text .client_add {
+		padding-top: 30px;
+	}
+	.Clients .Clients_wrapper {
+		padding-top: 0px;
+	}
+	.Clients .Clients_wrapper .Clients_card .Clients_text .client_add a i{
+		margin-bottom: 30px;
+	}
+	/* Appointment */
+	.appointment .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.appointment .appointment_wrapper {
+		padding-top: 35px;
+	}
+	.appointment .appointment_wrapper .time_table h4 {
+		font-size: 24px;
+	}
+	.appointment .appointment_wrapper .time_table h5 {
+		font-size: 16px;
+	}
+	.appointment .appointment_wrapper .form_wrapper label {
+		font-size: 24px;
+	}
+	.appointment .appointment_wrapper .form_wrapper .form_control {
+		height: 60px;
+	}
+	
+	/* contact */
+	.contact .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.contact .contact_wrapper {
+		padding-top: 0px;
+	}
+	.contact .contact_wrapper .form_wrapper label {
+		font-size: 24px;
+	}
+	.contact .contact_wrapper .form_wrapper .form_control {
+		height: 60px;
+	}
+	.contact .contact_wrapper .form_wrapper .Massages {
+		height: 200px !important;
+	}
+	.contact_info {
+		margin-top: 50px;
+	}
+	
+	
+}  
+@media (min-width: 1200px) and (max-width: 1399.98px){  
+	/* header part */
+	.header {
+		background-color: #303030;
+		padding: 20px 5px;
+	}
+	.header ul li a {
+		font-size: 14px;
+	}
+	
+	 /*banner part  */
+	 .banner .banner_inner {
+		padding: 220px 0px 40px 0px;
+	}
+	.banner .banner_inner h3 {
+		font-size: 24px;
+	}
+	.banner .banner_inner p {
+		font-size: 18px;
+		padding: 0px 0;
+	}
+	.banner .banner_inner h4 {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	/* experiance part */
+	.experiance .section_header h3 {
+		font-size: 50px;
+		letter-spacing: 2px;
+	}
+	.experiance_wrapper .experiance_icon {
+		height: 70px;
+		width: 70px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_icon img {
+		width: 40px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_left h3 {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right p {
+		font-size: 14px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right h5 {
+		font-size: 16px;
+	}
+	.experiance_wrapper .experiance_slider .experiance_right {
+		padding: 15px 20px 10px 20px;
+	}
+
+	.experiance_wrapper .experiance_befor_one::before {
+		left: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_four::before {
+		right: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_two::before {
+	
+		right: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_befor_three::before {
+		left: 0px;
+		z-index: -1;
+	}
+	.experiance_wrapper .experiance_slider::before {
+		height: 105%;
+	}
+	/* skill Part*/
+	.skill .skill_content {
+		padding-top: 0px;
+	}
+	.skill .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.skill .skill_content .progress_wrapeer .firstProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .secondProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .thirdProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .fourProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer .fiveProgress {
+		animation: none;
+	}
+	.skill .skill_content .progress_wrapeer {
+		padding-top: 50px;
+		padding-right: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	/* education */
+	.education .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.education .education_wrapper .education_card {
+		width: 100%;
+		margin-top: 40px !important;
+	}
+	
+	/* service Part */
+	.language {
+		padding: 75px 0 75px 0;
+	}
+	.service .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.service .service_wrapper .service_card {
+		margin-top: 40px !important;
+	}
+	.service .service_wrapper .service_card .card_img img {
+		max-height: 220px;
+	}
+	/* language */
+	.language .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.language_item {
+		margin-top: 50px;
+	}
+	.language .language_wrapper {
+		padding-top: 0px;
+	}
+	/* portfolio PArt */
+	.portfolio .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	
+	.portfolio .portfolio_wrapper .portfolio_card {
+		margin-top: 40px;
+	}
+	
+	/* award Part */
+	.award {
+		padding: 75px 0 75px 0;
+	}
+	.award .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.award .award_wrapper .award_item .item_text h4 {
+		font-size: 26px;
+	}
+	.award .award_wrapper .award_item .item_text h5 {
+		font-size: 22px;
+	}
+	.award .award_wrapper .award_item .item_text p {
+		font-size: 16px;
+	}
+	
+	/* Interest */
+	.interest {
+		padding: 75px 0 75px 0;
+	}
+	.interest .interst_wrapper {
+		padding-top: 40px;
+	}
+	.interest .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.interest_item {
+		margin-top: 20px;
+		padding: 0 20px;
+	}
+	
+	/* Journal */
+	.journal .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.journal .journal_wrapper .journal_text p {
+		font-size: 16px;
+	}
+	.journal .journal_wrapper .journal_other_item .journal_text p {
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	.journal_img_item {
+		margin-top: 20px;
+	}
+	/* refference */
+	.reference .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.reference .reference_wrapper .reffer_card {
+		margin-top: 20px;
+		padding: 40px 30px;
+	}
+	.reference .reference_wrapper .reffer_card .reffer_text h6 {
+		width:100%;
+		margin: 0 auto;
+	}
+	.reference .reference_wrapper .reffer_card .reffer_text h4 {
+		font-size: 20px;
+	}
+	/* endorsment */
+	.endorsements .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.endorsements .endorsements_wrapper .endorsements_text p {
+		font-size: 16px;
+	}
+	/* clients */
+	.Clients .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.Clients .Clients_wrapper .Clients_card {
+		padding: 40px 10px 50px 10px;
+		margin-top: 40px;
+	}
+	.Clients .Clients_wrapper .Clients_card .Clients_text .client_add {
+		padding-top: 30px;
+	}
+	.Clients .Clients_wrapper {
+		padding-top: 0px;
+	}
+	.Clients .Clients_wrapper .Clients_card .Clients_text .client_add a i{
+		margin-bottom: 30px;
+	}
+	/* Appointment */
+	.appointment .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.appointment .appointment_wrapper {
+		padding-top: 35px;
+	}
+	.appointment .appointment_wrapper .time_table h4 {
+		font-size: 24px;
+	}
+	.appointment .appointment_wrapper .time_table h5 {
+		font-size: 16px;
+	}
+	.appointment .appointment_wrapper .form_wrapper label {
+		font-size: 24px;
+	}
+	.appointment .appointment_wrapper .form_wrapper .form_control {
+		height: 60px;
+	}
+	
+	/* contact */
+	.contact .section_header h3 {
+		font-size: 40px;
+		letter-spacing: 2px;
+	}
+	.contact .contact_wrapper {
+		padding-top: 0px;
+	}
+	.contact .contact_wrapper .form_wrapper label {
+		font-size: 24px;
+	}
+	.contact_info {
+		margin-top: 50px;
+	}
+	
+}  

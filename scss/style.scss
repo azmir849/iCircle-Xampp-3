@@ -1,0 +1,83 @@
+/*<><><><><><><<><><><><><<><><><><>
+
+Template Name: Jhon DEO
+Template URL : 
+Description  :
+Author       : Fahim Ahmed
+Author URL   :
+Version      : 1.1.1
+
+<><><><><><><<><><><><><<><><><><>*/
+
+/*----------------------------------
+       HTML  INDEX LIST
+
+01. Header Section
+02. Banner Section
+03. Experiance Section
+04. SKill Section
+05. Service Section
+06. Language Section
+07. Portfolio Section
+08. Award Section
+09. Interest Section
+10. Journal Section
+11. Endorstment Section
+12. Client Section
+13. Appointment Section
+14. Contact Section
+15. Backtotop Section
+16. Nav Ofcanvas Section
+-------------------------------------*/
+
+
+/*     Google Font Connections
+-------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+/*      SCSS Pages Connections 
+<><><><<><<><><<><><><><><><<><><><>*/
+
+@import "../scss/common_css/common";
+
+@import "../scss/mixin_scss/mixin";
+
+@import "../scss/variable_scss/variable";
+
+
+
+
+
+/*     SCSS Sections Connections 
+<><><><<><<><><<><><><><><><<><><><>*/
+
+@import "../scss/header";
+@import "../scss/banenr";
+@import "../scss/experiance";
+@import "../scss/skill";
+@import "../scss/education";
+@import "../scss/service";
+@import "../scss/language";
+@import "../scss/portfolio";
+@import "../scss/award";
+@import "../scss/interest";
+@import "../scss/journal";
+@import "../scss/reference";
+@import "../scss/endorsment";
+@import "../scss/client";
+@import "../scss/appointment";
+@import "../scss/contact";
+@import "../scss/backtotop";
+@import "../scss/navoffcan";
+
+
+
+
+
+
+
+
+
+
+

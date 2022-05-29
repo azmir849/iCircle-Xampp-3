@@ -1,0 +1,87 @@
+.Clients{
+    background-image: url(../images/client_bg.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 75px 0 70px 0;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+    &::before{
+    position: absolute;
+    content: '';
+    top: 0; 
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8); 
+    z-index: -1;
+    }
+    .section_header{
+        h3{
+            font-size: 75px;
+            font-weight: 700;
+            color: $white;
+            font-family: $oswald;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+    .Clients_wrapper{
+        padding-top: 75px;
+            .Clients_card{
+                padding: 40px 20px 30px 20px;
+                background-color: $white;
+                border-radius: 8px;
+                &:hover{
+                    background-color: $orange;
+                    border-radius: 8px;
+                }
+                &:hover .Clients_text h4{
+                    color: $white;
+                }
+                &:hover .Clients_text h5{
+                    color: $white;
+                }
+                 .Clients_text{
+                     padding-top: 20px;
+                    h4{
+                        font-size: 26px; 
+                        font-weight: 400;
+                        color: $black;
+                        font-family: $popins  
+                    }
+                    h5{
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: $black;
+                        font-family: $popins; 
+                    }
+                    .client_add{
+                        padding-top: 10px;
+                        a{
+                            font-size: 18px;
+                            font-weight: 400;
+                            color: $white;
+                            font-family: $popins;
+                            width: 100%;
+                            padding: 5px 30px;
+                            background-color: $black;
+                            border-radius: 8px;
+                            border: 1px solid transparent;
+                            margin-right: 10px;
+                            span{
+                                font-size: 16px !important;
+                            }
+                           &:hover{
+                               background-color: transparent;
+                               border: 1px solid $white;
+                               color: $white;
+                               font-weight: 500;
+                           }
+                        }
+                    }
+                 }
+            }
+    }
+}
